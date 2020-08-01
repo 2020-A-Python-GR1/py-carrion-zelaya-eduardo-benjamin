@@ -1,0 +1,1 @@
+{'Gamma': {'numero_de_equipos': 6, 'costo seguro': 999.99, 'encargado': 'Juan Cordova', 'internet': False}, 'Beta': {'numero_de_equipos': 12, 'costo seguro': 12.4, 'encargado': 'Alberto Moran', 'internet': True}}

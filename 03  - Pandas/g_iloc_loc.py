@@ -87,8 +87,16 @@ notas.loc[:, "disciplina"] = 7
 
 
 
+#nota_1_mean = notas.loc[:,"nota 1"].mean()
+#nota_2_mean = notas.loc[:,"nota 2"].mean()
+#disiciplina_mean = notas.loc[:,"disciplina"].mean()
 
 
+#mean_total = (nota_1_mean + nota_2_mean + disiciplina_mean) / 3
+
+
+
+notas["promedio"] = (notas.loc[:,"nota 1"] + notas.loc[:,"nota 2"] + notas.loc[:,"disciplina"])/3
 
 
 
